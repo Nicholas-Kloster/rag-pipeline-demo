@@ -7,6 +7,8 @@
 
 ![Reverse Engineering Claude's RAG Pipeline](screenshot.png)
 
+**[▶ Demo screencast](https://github.com/Nicholas-Kloster/rag-pipeline-demo/releases/download/v1.0/Screencast.from.2026-04-24.21-50-28.webm)** (67MB webm) — full pipeline run, all four stages
+
 ---
 
 ## Why we call it this
