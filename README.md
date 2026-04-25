@@ -3,6 +3,8 @@
 
 *By NuClide — Nick + Claude*
 
+**[▶ Live demo](https://claude.ai/public/artifacts/6798bcca-ad83-4db5-860b-c80baccc0512)** — runs inside claude.ai (no key needed) · [Standalone HTML](rag_pipeline_standalone.html) — bring your own key
+
 ---
 
 ## Why we call it this
