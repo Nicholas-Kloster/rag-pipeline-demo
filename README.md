@@ -362,3 +362,28 @@ Inside Claude.ai, the artifact works. Outside, you need authentication.
 ---
 
 *Built in five iterations. From a broken widget to a working artifact to a model-comparison tool.*
+
+## Use with Claude Code
+
+Use Claude Code to extend pipeline stages, swap embedding backends, or analyze what each stage contributes to output quality.
+
+```
+Read README.md in this repo (rag-pipeline-demo). The pipeline has 4 stages:
+query rewrite → retrieval → context injection → generation.
+Help me:
+1. Add a new retrieval backend (BM25 or a vector DB) as an alternative to the current one
+2. Explain what's happening at the context injection stage and why it matters
+3. Modify the generation stage to use a different Claude model or temperature setting
+What do you want to build?
+```
+
+```
+I want to understand where RAG pipelines fail in production.
+Read README.md in rag-pipeline-demo, then use the 4-stage architecture to:
+1. Identify which stage is most likely to produce hallucinations for my use case
+2. Add a confidence scoring layer that flags low-retrieval-relevance responses
+3. Build a test harness that compares output quality with/without the rewrite stage
+Use case: [describe your RAG application here]
+```
+
+---
